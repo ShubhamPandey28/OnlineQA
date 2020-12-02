@@ -1,0 +1,12 @@
+question:Which of these is false for threads and process?
+options:Every thread has seperate data including code~All threads may or may not run on same processors~None
+answer:0
+explaination:Fact
+question:kernel threads
+options:Cannot be supported and managed directly by the operating system~can be supported and managed directly by the operating system~are supported below the kernel and are managed without kernel support~None of the above
+answer:0
+explanantion:OS cannot support and manage kernel threads.
+question:Termination of the process terminates:
+options:first thread of the process~first two threads of the process~all threads within the process~no thread within the process.
+answer:2
+explanation:Fact

@@ -1,0 +1,16 @@
+question:Increasing the RAM of a computer typically improves performance because:
+options:Virtual memory increases~Larger RAMs are faster~Fewer page faults occur~Fewer segmentation faults occur
+answer:2
+explanation:When there is more RAM, there would be more mapped virtual pages in physical memory, hence fewer page faults. A page fault causes performance degradation as the page has to be loaded from secondary device.
+question:Virtual memory is
+options:Large secondary memory~Large main memory~Illusion of large main memory~None of the above
+answer:2
+explanation:Virtual memory is illusion of large main memory.
+question:Page fault occurs when
+options:When a requested page is in memory~When a requested page is not in memory~When a page is currupted~When an exception is thrown.
+answer:1
+explanation:Page fault occurs when a requested page is mapped in virtual address space but not present in memory.
+question:Thrashing occurs when
+options:When a page fault occurs~Processes on system frequently access pages not memory~Processes on system are in running state~Processes on system are in waiting state.
+answer:1
+explanation:Thrashing occurs processes on system require more memory than it has. If processes do not have “enough” pages, the pagefault rate is very high. This leads to: – low CPU utilization – operating system spends most of its time swapping to disk The above situation is called thrashing.
